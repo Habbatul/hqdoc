@@ -2,6 +2,7 @@
 // mengambil file koneksi.php
 include_once("conn.php");
 
+//menghapus keluhan
 if (isset($_POST['delete'])) {
 	$id = $_POST['id'];
 	$deletePembeli = mysqli_query($conn, "DELETE FROM keluhan WHERE id='$id'");
