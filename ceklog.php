@@ -1,8 +1,8 @@
 <?php 
-//mengecek apakahhhh session login ada atau tidakf
+//mengecek apakah session login ada atau tidak
 if(isset($_SESSION['loglog'])){
 
 }else{
-    header('location:home.php');
+    header('location:login.php');
 }
 ?>
