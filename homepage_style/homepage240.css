@@ -1,0 +1,11 @@
+.item1 {grid-area: header;}
+.item2 {grid-area: footer1; }
+.item3 {grid-area: footer2; }
+.item4 {grid-area: footer3; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'footer1 footer1 footer2 footer2 footer3 footer3';
+}

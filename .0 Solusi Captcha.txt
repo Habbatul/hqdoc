@@ -1,0 +1,1 @@
+Kalo fungsi captcha error atau gambar tidak muncul, pergi ke xampp -> php   , cari php.ini  cari/find "gd", kalo ketemu ;extension=gd titik koma dibagian belakang dihilangkan. lalu restart xampp

@@ -1,0 +1,76 @@
+
+.DigviceFont{
+	font-family: Bahnschrift SemiBold;
+	font-size: 20px;
+}
+ .navi {
+ font-family: Arial;
+  overflow: hidden;
+  background-color: #333;
+}
+.navi a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navi a:hover {
+  background-color: white;
+  color: black;
+  border-bottom: 4px solid white;
+}
+
+body{
+   animation:diptoBlack 0.6s ease;
+}
+
+@keyframes diptoBlack{
+   0%{opacity: 0}
+   100%{opacity:1}
+}
+
+#main {
+  width: 590px;
+  position: relative;
+  margin: 600px;
+   margin-top: 30px;
+   margin-bottom: 0px;
+   box-shadow: 0 0 30px gray, 0 0 20px black; 
+}
+
+.footer {
+    font-family:Arial;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  #707070;
+   color: white;
+   text-align: center;
+}
+.footerImg {
+    font-family:Arial;
+   position: absolute;
+   left: 500;
+   top: 552px;
+   width: 50%;
+   color: white;
+   text-align: center;
+}
+
+.footerImg .column :hover{
+  opacity: 80%;
+  color: red;
+  cursor: pointer;
+}
+.footerImg img{;
+  width: 100%;
+}
+.footerImg img:hover {
+  cursor: pointer;
+  opacity: 50%;
+}

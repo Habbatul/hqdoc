@@ -1,0 +1,28 @@
+input[type='submit']{
+        font-family: Arial black;
+        padding: 7px 10px;
+        margin: 10px 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+
+      }
+input[type='submit']:hover {
+        box-shadow: 0 0 20px slategray, 0 0 30px darkgrey;
+        background-color: darkgray;
+      }
+
+input[type='reset']{
+        font-family: Arial black;
+        padding: 7px 10px;
+        margin: 10px 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+      }
+input[type='reset']:hover {
+        box-shadow: 0 0 20px slategray, 0 0 30px darkgrey;
+        background-color: darkgray
+      }

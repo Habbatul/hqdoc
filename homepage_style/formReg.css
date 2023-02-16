@@ -1,0 +1,45 @@
+.formReg{
+  font-weight: bold;
+  text-align: left;
+  font-family: sans-serif, bold, Arial, Helvetica;
+  font-size: 14px;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+
+}
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding-left: 100px;
+}
+form input{
+  padding: 5px;
+}
+form select {
+  background-color: #ffffff;
+  padding: 5px;
+}
+form label{
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+form input[type='number']{  
+  width: 390px;
+} 
+form input[type='Password']{
+  width: 390px;
+}
+form input[type='text']{
+  width: 390px;
+}
+form input[type='email']{
+  width: 390px;
+}
+
+body {
+  background-image: url('gambarPoject/G4river.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
