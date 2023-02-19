@@ -71,15 +71,7 @@ require 'conn.php';
     </div>
     <!--image slider end-->
 
-    <script type="text/javascript">
-    var counter = 1;
-    setInterval(function(){
-      document.getElementById('radio' + counter).checked = true;
-      counter++;
-      if(counter > 3){
-        counter = 1;
-      }
-    }, 4000);
+    <script type="text/javascript" src="intervalSlider.js">
     </script>
   </div>
   
@@ -133,6 +125,7 @@ require 'conn.php';
                         var element3 = document.getElementById("pil2");
                         var pengecualian1 =document.getElementById("pil1");
                         var pengecualian2 =document.getElementById("pil3");
+                        element2.innerHTML="Untuk Apa HqDoc?";
                         element.innerHTML = "HqDoc dibuat dalam rangka untuk media perantara antara orang-orang yang kurang memiliki kemampuan finansial untuk mendapatkan rekomendasi mengenai penyakitnya dari dokter, ataupun orang yang tidak memiliki waktu untuk periksa. Namun perlu diketahui untuk pemeriksaan lebih detail anda perlu berkonsultasi langsung dengan dokter secara fisik.";
                         element3.style.borderBottom = "4px solid red";
                         pengecualian1.style.border="0px";
@@ -154,6 +147,7 @@ require 'conn.php';
                         var element3 = document.getElementById("pil3");
                         var pengecualian1 =document.getElementById("pil1");
                         var pengecualian2 =document.getElementById("pil2");
+                        element2.innerHTML="Cara Menggunakan HqDoc?";
                         element.innerHTML = "Silahkan klik di halaman keluhan anda bisa menuliskan penyakit atau gejala yang anda alami dengan menambahkan keluhan, nantinya anda hanya perlu menunggu sampai post tersebut dibalas oleh dokter.";
                         element3.style.borderBottom = "4px solid red";
                         pengecualian1.style.border="0px";
