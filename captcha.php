@@ -1,6 +1,6 @@
 <?php
 //captcha ini dibuat oleh @hq.han
-include "conn.php";
+include "koneksi.php";
 $random_alpha = md5(rand());
 $judul_captcha = "tulis captcha dibawah tanpa spasi";
 $captcha_code = substr($random_alpha, 0, 2);
