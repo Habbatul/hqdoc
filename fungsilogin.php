@@ -1,6 +1,7 @@
 <?php
 require 'conn.php';
 
+//apakah request method post?
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
     
     $email = $_POST['email'];
